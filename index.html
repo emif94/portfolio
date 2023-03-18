@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Web Development Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
+  <!--Animate CSS-->
+  <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
+</head>
+<body class="blackBackground">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navBarColor navBarAttach">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse rowCenter" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link consoleFont" href="#">< Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link consoleFont" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link consoleFont" href="#contact">Contact /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="py-5">
+    <div class="container PT2">
+      <div class="row PT6 PB7">
+        <div class="col-md-6 PT6 animate__animated animate__fadeInLeftBig">
+          <h1 class="signature">Emiliano Flores</h1>
+          <p class="lead typewriter consoleFont">
+            <span class="color1"><</span>
+            <span class="color2" style="display:inline-block;">front</span><span class="color4" style="display:inline-block;">-end</span>
+            <span class="color3">web developer</span>
+            <span class="color1">></span>
+          </p>
+        </div>
+        <div class="col-md-6 animate__animated animate__fadeInRightBig">
+          <img src="assets/img/profile-1.jpg" class="img-fluid profileImgStyle" alt="Profile Picture">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 ">
+    <div class="container" >
+      <h2 class="text-center consoleFont color5 PB3" >My Projects</h2>
+      <hr>
+      <div class="row rowCenter">
+        <!-- Project 1 -->
+        <div class="col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-duration="3000">
+          <div class="card">
+            <div class="card-img-wrapper">
+              <img src="assets/img/alineare-sample.png" alt="Project 1">
+              <img src="assets/img/alineare-sample-2.png" alt="Project 1" class="hidden">
+              <img src="assets/img/alineare-sample-3.png" alt="Project 1" class="hidden">
+            </div>
+            <div class="card-body cardBackground">
+              <h5 class="card-title titleFont color5">Alineare</h5>
+              <p class="card-text textFont color5">Landing page to a dental website</p>
+              <a href="#" class="btn btn-primary btn-light mr-2">View Project</a>
+              <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">Details</button>
+            </div>
+          </div>
+        </div>
+        
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Alineare</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>This website is built with HTML, CSS and JavaScript.</li>
+                    <li>It's a landing page with several sections through which you can navigate.</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <!-- Project 2 -->
+        <div class="col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="assets/img/turnos-sample.png" alt="Project 2">
+                <img src="assets/img/turnos-sample-2.png" alt="Project 2" class="hidden">
+                <img src="assets/img/turnos-sample-3.png" alt="Project 2" class="hidden">
+              </div>
+              <div class="card-body cardBackground">
+                <h5 class="card-title titleFont color5">Dentist Dates System - Alineare</h5>
+                <p class="card-text textFont color5">Web App (simulator) to get a date with the dentist. Developed in JS</p>
+                <a href="https://sistema-turnos-js.netlify.app/pages/turnos.html" class="btn btn-light mr-2">View Project</a>
+                <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal2">Details</button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel2">Dentist Dates System - Alineare</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>It's a project based on "Alineare", we could say this is it's continuation.</li>
+                    <li>This simulator allows you to get a date to the dentist.</li>
+                    <li>It also allows you to access the "Control" page, where you can see patients's information and the dates already taken.</li>
+                    <li>To access to "Control" this will be the credentials:
+                      <br>-User: emiliano
+                      <br>-Password: dientes1234
+                    </li> 
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <!-- Project 3 -->
+        <div class="col-md-6 col-lg-6 mb-5" data-aos="fade-up" data-aos-duration="1000">
+            <div class="card">
+              <div class="card-img-wrapper">
+                <img src="assets/img/hero-sample-1.png" alt="Project 2">
+                <img src="assets/img/hero-sample-2.png" alt="Project 2" class="hidden">
+                <img src="assets/img/hero-sample-3.png" alt="Project 2" class="hidden">
+              </div>
+              <div class="card-body cardBackground">
+                <h5 class="card-title titleFont color5">Hero Collectibles</h5>
+                <p class="card-text textFont color5">E-commerce model, developed in React JS</p>
+                <a href="https://hero-collectibles.netlify.app/" class="btn btn-light mr-2">View Project</a>
+                <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal3">Details</button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel3">Project 3 Details</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>SPA e-commerce built with React JS</li>
+                  </ul>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center consoleFont color5">Contact Me</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-8 mx-auto" data-aos="flip-up" data-aos-duration="2000">
+          <form>
+            <div class="form-group">
+              <label for="name" class="consoleFont color5">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email" class="consoleFont color5">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message" class="consoleFont color5">Message</label>
+              <textarea class="form-control" id="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-outline-light">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6"><br>
+          <p class="textFont">&copy; 2023 Portfolio</p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-right color5 signatureFooter fon">Emiliano Flores</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+   <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Smooth Scroll JS -->
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  <!--Main Js-->
+  <script src="js/main.js"></script>
+  <!--AOS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+  <script>
+    AOS.init();
+  </script>
+  <!--WOW-js-->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
