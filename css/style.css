@@ -1,0 +1,316 @@
+/*NavBar----------------------------------------------------------->>>*/   
+    /*NavBar behavior while scrolling---------->*/
+.navBarAttach {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 1000;
+  }
+  
+  .navBarAttach.hidden {
+    top: -100px;
+  }
+
+ .navBarColor{
+    background-color: rgba(0, 0, 0, 0.6)
+ } 
+/*NavBar-END-------------------------------------  <<<*/   
+/*Typewriter--------------------------------------------------------->>>*/
+
+  .typewriter {
+    display: inline-block;
+    overflow: hidden;
+    border-right: 0.5em solid #000;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 55%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: rgb(213, 213, 213);;
+    }
+  }
+/*Typewriter-END--------------------------------------------<<<*/
+
+/*Images Styles----------------------------------------------------------->>>*/
+.profileImgStyle{
+    max-width: 300px;
+    border-radius: 100%;
+}
+
+/*Img Hover GIF----------------------------------------------------->>>*/
+.card-img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 49%; /* 3:2 aspect ratio */
+    overflow: hidden;
+  }
+  
+  .card-img-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  .card-img-wrapper img.hidden {
+    opacity: 0;
+  }
+  
+  .card-img-wrapper:hover img:nth-child(1) {
+    opacity: 0;
+  }
+  
+  .card-img-wrapper:hover img:nth-child(2) {
+    opacity: 1;
+    transition-delay: 2s;
+  }
+  
+  .card-img-wrapper:hover img:nth-child(3) {
+    opacity: 1;
+    transition-delay: 3.5s;
+  }
+  
+  
+/*Img Hover GIF - End--------------------------------<<<*/
+/*Images Styles-END----------------------------------------<<<*/
+
+/*Fonts------------------------------------------------------------------>>>*/
+
+@font-face {
+    font-family: 'Prestige Signature';
+    src: url('../assets/fonts/prestige-signature.otf');
+}
+
+@font-face {
+    font-family: 'Lucida Console Custom';
+    src: url('../assets/fonts/Lucida\ Console\ Regular.ttf');
+}
+
+
+.signature{
+    font-family: 'Prestige Signature';
+    font-size: 115px;
+    color:rgb(213, 213, 213);
+}
+
+.consoleFont{
+    font-family: 'Lucida Console Custom';
+    letter-spacing: 0.1em;
+    font-weight: 100;
+
+}
+.logoFont{
+    font-family: 'Prestige Signature';
+    font-size: 25px;
+}
+
+.textFont{
+    font-family: 'Noto Sans', sans-serif;
+
+    font-size: 15px;
+}
+.titleFont{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+
+.signatureFooter{
+    font-family: 'Prestige Signature';
+    font-size: 40px;
+    color:rgb(213, 213, 213);
+    padding:0px;
+    margin-bottom: -10px;
+}
+/*Fonts-END-------------------------------------------------<<<*/
+
+
+/*Paddings - Margins------------------------------------------------------------->>> */
+
+
+.M0{
+    margin:0px;
+}
+.M1{
+    margin:20px;
+}
+
+
+.MT0{
+    margin-top:0px;
+}
+
+.MT1{
+    margin-top:20px;
+}
+
+.MT2{
+    margin-top:40px;
+}
+
+.MT3{
+    margin-top:60px;
+}
+
+.MT4{
+    margin-top:80px;
+}
+
+.MT5{
+    margin-top:100px;
+}
+
+
+
+.MB1{
+    margin-bottom:20px;
+}
+
+.MB2{
+    margin-bottom:40px;
+}
+
+.MB3{
+    margin-bottom:60px;
+}
+
+.MB4{
+    margin-bottom:80px;
+}
+
+.MB5{
+    margin-bottom:100px;
+}
+
+.MB10{
+    margin-bottom:200px;
+}
+
+.MB15{
+    margin-bottom:300px;
+}
+
+.MB18{
+    margin-bottom:360px;
+}
+
+
+
+.P0{
+    padding: 0px;
+}
+.P1{
+    padding: 20px;
+}
+
+
+
+.PT0{
+    padding-top: 0px;
+}
+
+.PT1{
+    padding-top: 20px;
+}
+
+.PT2{
+    padding-top: 40px;
+}
+.PT6{
+    padding-top: 100px;
+}
+
+
+
+.PB0{
+    padding-bottom: 0px;
+}
+.PB3{
+    padding-bottom:60px;
+} 
+
+.PB5{
+    padding-bottom:100px;
+}
+
+.PB7{
+    padding-bottom:140px;
+}
+
+.PB13{
+    padding-bottom:260px;
+}
+.PB15{
+    padding-bottom:500px;
+}
+/*Paddings - Margins-END------------------------------------------------------------<<<*/
+
+/*Alginment------------------------------------------------------------------------->>>*/
+.rowCenter{
+    justify-content: center; /*It already has the Flex property set by Bootstrap*/
+}
+/*Alginment-END------------------------------------------------------- <<<*/
+
+/*General------------------------------------------------------------------------->>>*/
+.blackBackground{
+    background-color: black;
+}
+.blackBackground2{
+    background-image: url("../assets/img/main-background.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    
+}
+
+.color1{
+    color: #808080;
+}
+.color2{
+    color: #358cd6;
+}
+.color3{
+    color: #ce834a;
+}
+
+.color4{
+    color: #7cdcfe;
+}
+
+.color5{
+    color:rgb(213, 213, 213)
+}
+
+.cardBackground{
+    background-color: #1e1e1e
+}
+
+.cardBackground1{
+    background-color: #03254c
+}
+
+.cardBackground2{
+    background-color: 	#1167b1
+}
+.cardBackground3{
+    background-color: 	#2a9df4
+}
+
+/*General-END--------------------------------------------------------<<<*/
